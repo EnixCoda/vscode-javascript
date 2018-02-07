@@ -1,17 +1,16 @@
 {
-  "name": "JavaScriptSnippets",
-  "description": "Code snippets for JavaScript in ES6 syntax",
+  "name": "vscode-javascript-snippets",
+  "description": "VS Code JavaScript snippets in ES6 syntax",
   "version": "1.5.0",
-  "displayName": "JavaScript (ES6) code snippets",
-  "publisher": "xabikos",
-  "icon": "images/javascript.png",
+  "displayName": "JavaScript code snippets",
+  "publisher": "EnixCoda",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xabikos/vscode-javascript"
+    "url": "https://github.com/EnixCoda/vscode-javascript"
   },
   "engines": {
-    "vscode": "0.10.x"
+    "vscode": "1.x.x"
   },
   "categories": [
     "Snippets"
@@ -29,9 +28,6 @@
         "path": "./snippets/snippets.json"
       }, {
         "language": "typescriptreact",
-        "path": "./snippets/snippets.json"
-      }, {
-        "language": "html",
         "path": "./snippets/snippets.json"
       }, {
         "language": "vue",
